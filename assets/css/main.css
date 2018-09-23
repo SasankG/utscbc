@@ -1,0 +1,1160 @@
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+#logo {
+    width: 90px;
+    height: 110px;
+    right: 20px;
+    position: relative;
+}
+
+nav.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    background-color: white;
+}
+
+.navbar.large {
+	height: 100px;
+}
+
+.navbar.small {
+	height: 70px;
+}
+
+#UTSCBC {
+    margin-top: 24px;
+    float: left;
+    font-size: 22pt;
+    color: #004d99;
+    text-shadow: 4px 2.4px 8px rgba(0, 0, 0, 0.26);
+    font-family: "Times New Roman", Times, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+#navbarstuff {
+    margin-top: 16px;
+}
+
+
+#pills a:hover {
+    background-color: lightblue;
+    border-radius: 4px;
+}
+
+
+
+/* Header */
+
+ #mhBlock {
+    margin-top: 6%;
+    padding-bottom: 9%;
+    clear: none;
+    background-image: 
+        linear-gradient( rgba(0,0,0,.4), rgba(0,0,0,.4) ),
+        url(../images/53.png);
+    background-position: center center;
+    background-size: 100% 1100px; 
+    background-attachment: fixed;
+}
+
+#mhText {
+    padding-top: 8%;
+    color: white;
+    font-size: 38pt;
+    font-family: 'Calibri' sans-serif;
+    text-align: center;
+    text-shadow: 4px 3px 14px black;
+    position: relative;
+    display: none;
+}
+
+#mhText2 {
+    color: white;
+    font-family: 'Calibri' sans-serif;
+    text-align: center;
+    text-shadow: 4px 3px 14px black;
+    position: relative;
+    display: none;
+    padding-top: 0%; 
+    font-size: 30pt;
+}
+
+
+#mhText sub {
+    margin-top: 2%; 
+    font-size: 30pt;
+}
+
+/* About */
+
+.abBlock {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #262626;
+    background-color: #004d99;
+    z-index: 1;
+    
+}
+
+#logoTwo{
+    height: 278px;
+    width: 15%;
+    border-radius: 4px;
+    left: 1000px;
+    float: left;
+    opacity: 0.4;
+}
+
+#titleText{
+   margin-left: 49.33%;
+   padding-top: 1%;
+   color: white;
+   font-size: 28pt;
+   font-family: 'Calibri' sans-serif;
+   font-weight: bold;
+}
+
+#wordText{
+    color: white;
+    font-size: 12pt;
+    font-family: 'Calibri' sans-serif;
+    margin-left: 30%;
+    margin-right: 20%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+#wordText, #titleText{
+    display: none;
+}
+
+
+
+/* Membership */
+
+.memBlock{
+background-color: rgba(0, 0, 0, 0.8);
+margin-top: -8px;
+clear: none;
+overflow: hidden;
+width: 98%;
+margin-left: 1%;
+border-bottom-right-radius: 2px;
+border-bottom-left-radius: 2px; 
+-webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #262626;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+#memPic{
+clear: none;
+z-index: 1;
+
+float: left;
+width: 25%; 
+opacity: 0.4;
+}
+
+#memText{
+    padding-top: 8%; 
+    font-size: 38pt;
+ text-shadow: 4px 3px 14px black;
+ color: white;
+ z-index: 8;
+ position: absolute;
+ margin-left: 34%; 
+ margin-right: 20%;
+}
+
+#learnbtn{
+    position: relative;
+    font-size: 20pt;
+    font-weight: bold;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+#memBlurb1,#memBlurb2,#memBlurb3,#memBlurb4{
+    padding-top: 8%; 
+    font-size: 30pt;
+ text-shadow: 4px 3px 14px black;
+ color: white;
+ z-index: 7;
+ position: absolute;
+ margin-left: 5%;
+ opacity: 0;
+}
+
+
+/*Schedule*/
+
+.schedBlock{
+    background-color: whitesmoke;
+    margin-top: 2%;
+    width: 98%;
+    margin-left: 1%;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+  
+}
+
+#calendar{
+    margin-left: 4.8%;
+    padding-bottom: 1%;
+}
+
+#calText{
+    color: #004d99;
+    margin-left: 1%;
+    font-size: 28pt;
+    font-family: 'Dubai(medium)', Dubai , sans-serif;
+    font-weight: bold;
+}
+
+#calText2{
+    margin-left: 40%; 
+    padding-bottom: 90px;
+    color: white;
+    font-family: 'Dubai(medium)', Dubai , sans-serif;
+    font-weight: bold;
+    font-size: 28pt;
+}
+
+#calText3{
+    color: whitesmoke; 
+    font-size: 24pt;
+      font-family: 'Dubai(medium)', Dubai , sans-serif;
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+.ladBlock{
+    background-color: #004d99;
+    width: 96%;
+    margin-left: 2%;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+}
+
+/*End Block*/
+.shoBlock{
+    height: 360px;
+    overflow: hidden;
+    margin-left:2%;
+    width: 96%;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+}
+
+#memPic2{
+    width: 34%;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    float: left;
+}
+
+#quote{
+    float: left;
+    margin-left: 180px;
+    margin-top: 8%;
+    font-size: 20pt;
+    font-style: italic;
+    color: #004d99;
+    font-family: 'Roboto' sans-serif;
+    font-weight: bold;
+}
+/* footer */
+
+.footer{
+    width: 100%;
+    background-color: #004d99;
+    height: 100px;
+    margin-top: -20px;
+    position: absolute;
+    left: 0;
+    bottom: -140px;
+}
+
+#footerBlurb{
+    color: rgba(245, 245, 245, 0.377);
+    text-align: center;
+    padding-top: 1%;
+    
+}
+
+#icon{
+    font-size: 20pt;
+    color: whitesmoke;
+    margin-left: 1%;
+    padding-top: 1%;
+    
+    clear: none;
+}
+#icon1{
+    font-size: 20pt;
+    color: whitesmoke;
+    margin-left: 46.8%;
+    padding-top: 1%;
+    float: left;
+    clear: none;
+}
+
+#icon:hover{
+    color: rgb(30, 105, 170);
+}
+
+#icon1:hover{
+    color: rgb(30, 105, 170)
+}
+
+/*MEMBERSHIP PAGE*/
+/*Show Block*/
+
+.mainBlock{
+    margin-top: 10%;
+    margin-left: 1%;
+    width: 98%;
+    background-color: #004d99;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    overflow: hidden;
+    display: none;
+    border-radius: 10px;
+}
+
+.showblock{
+    background-image: 
+    linear-gradient( rgba(0,0,0,.4), rgba(0,0,0,.4) ),
+    url("../images/received_1548835818558360.jpeg");
+    background-size: 100%;
+    height: 400px;
+    overflow: hidden;
+    width: 24%;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    float: left;
+    clear: none;
+}
+
+#showBlurb{
+    float: left;
+    margin-left: 24%;
+    padding-top: 1%;
+    color: white;
+    font-size: 28pt;
+    font-family: 'Calibri' sans-serif;
+    clear: none;
+    
+}
+
+#showBlurb2{
+    float: left;
+    clear: none;
+    color: white;
+    font-size: 14pt;
+    margin-left: 12%;
+    margin-top: 1%;
+    max-width: 800px;
+    font-family: 'Calibri' sans-serif;
+   
+}
+
+#count{
+    color: white;
+    font-size: 40pt;
+    font-family: 'Dubai(medium)', Dubai , sans-serif;
+    text-shadow: 4px 3px 14px black;
+    margin-left: 40px;
+    margin-top: 140px;
+    font-weight: bold;
+}
+#services{
+    color: white;
+    font-size: 40pt;
+    font-family: 'Dubai(medium)', Dubai , sans-serif;
+    text-shadow: 4px 3px 14px black;
+    float: left;
+    position: relative;
+    top: 140px;
+    right: 140px;
+    font-weight: bold;
+}
+
+#members{
+    position: relative; 
+    top: 210px;
+    right: 424px;
+    color: white;
+    font-size: 16pt;
+    font-family: 'Dubai(medium)', Dubai , sans-serif;
+    text-shadow: 4px 3px 14px black;
+}
+
+#service{
+    position: relative; 
+    top: 170px;
+    right: 224px;
+    color: white;
+    font-size: 16pt;
+    font-family: 'Dubai(medium)', Dubai , sans-serif;
+    text-shadow: 4px 3px 14px black;
+}
+
+#myCarousel{
+    width: 60%;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    margin-left: 1%;
+    float: left;
+    margin-top: 2%;
+    display: none;
+}
+
+.memBlockSide{
+    display: none;
+    margin-top: 2%;
+    margin-left: 2%;
+    float: left;
+    height: 400px;
+    width: 36%;
+    background-color: #004d99;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    border-radius: 10px;
+}
+
+#mbsBlurb{
+    text-align: center;
+    color: white;
+    padding-top: 4%;
+    font-family: 'Calibri' sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+#mbsBlurb2{
+    text-align: center;
+    color: white;
+    padding-top: 4%;
+    font-family: 'Arial' sans-serif;
+    font-size: 14pt;
+    margin: 4%;
+}
+
+#membtn{
+    margin-left: 30%;
+    margin-top: 2%;
+    font-size: 16pt;
+}
+
+/*Club Hours Page*/
+.hourBlock{
+    background-image: 
+    linear-gradient( rgba(0,0,0,.4), rgba(0,0,0,.4) ),
+    url("../images/mempic3.png");
+   background-attachment: fixed;
+    height: 700px;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    display: none;
+}
+
+.hourBlock2{
+    text-align: center;
+   background-color: whitesmoke;
+    width: 40%;
+    margin-left: 33.33%;
+    position: relative;
+    top: 200px;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    border-radius: 10px;
+}
+#hb2Blurb{
+    color: #004d99;
+    font-size: 22pt;
+    font-family: 'Calibri' sans-serif;
+    font-weight: bold;
+    
+    padding-top: 1%;
+}
+
+#hb2Blurb2{
+    color: #004d99;
+    font-size: 14pt;
+    font-family: 'Calibri' sans-serif;
+    margin:3%;
+    padding-top: 1%;
+}
+
+#tpasc{
+    margin-bottom: 2%;
+}
+
+#schedBlock2{
+    display: none;
+}
+
+
+/*Club Services Page*/
+.serBlock{
+    background-color: #004d99;
+    text-align: center;
+    padding-top: 140px; 
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    display: none;
+}
+
+#serBlurb{
+    color: whitesmoke;
+    font-size: 28pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif'';
+    font-weight: bold;
+   
+}
+
+#serBlurb2{
+    color: whitesmoke;
+    font-size: 20pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif'';
+    padding-bottom: 20px;
+   
+}
+
+.ser1{
+    background-color: whitesmoke;
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 90%;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    overflow: hidden;
+    text-align: center;
+    display: none;
+}
+#serimg{
+    float: left;
+}
+#serBlurb3{
+    font-size: 24pt;
+    color: #004d99;
+    margin-top: 1%;
+    font-weight: bold;
+}
+#serBlurb32{
+    color: #004d99;
+    width: 60%;
+    margin-left: 33.33%;
+    font-size: 14pt;
+    margin-top: 2%;
+}
+
+.ser2{
+    background-color: whitesmoke;
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 90%;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    overflow: hidden;
+    text-align: center;
+    display: none;
+}
+
+#serimg2{
+    width: 20%;
+    float: right;
+}
+
+#serBlurb33{
+    color: #004d99;
+    width: 60%;
+    margin-left: 8%;
+    font-size: 14pt;
+    margin-top: 2%;
+}
+
+.ser3{
+    background-color: whitesmoke;
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 90%;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    overflow: hidden;
+    text-align: center;
+    display: none;
+}
+
+/*Staff Page*/
+
+.jBlock{
+    height: 700px;
+    background-image:
+    linear-gradient( rgba(0,0,0,.4), rgba(0,0,0,.4) ),
+     url("../images/staff.jpg");
+    background-size: 100%;
+    background-position: center bottom;  
+    background-attachment: fixed;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    display: none;
+}
+
+.joinBlock{
+    background-color: #004d99;
+    text-align: center;
+
+     width: 40%;
+     margin-left: 33.33%;
+     position: relative;
+     top: 200px;
+     -webkit-box-shadow: 0 8px 6px -6px #999;
+     -moz-box-shadow: 10 8px 6px -6px #999;
+     box-shadow: 0 8px 16px -6px #262626;
+     border-radius: 10px;
+}
+
+#joinTitle{
+    color: whitesmoke;
+    font-size: 24pt;
+    font-family: 'Calibri' sans-serif;
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+#joinBlurb{
+    color: whitesmoke;
+    font-size: 14pt;
+    font-family: 'Calibri' sans-serif;
+    margin:3%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
+
+.oBlock{
+    background-color: #004d99;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    width: 98%;
+    margin-left: 1%;
+    height: 100px;
+    display: none;
+}
+
+#oTitle{
+    color: whitesmoke;
+    font-size: 18pt;
+    margin-left: 2%;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#oBlurb{
+    color: whitesmoke;
+    font-size: 14pt;
+    margin-left: 2%;
+    padding-top: 10px;
+}
+
+
+/*Sponsors Page*/
+.sponBlock{
+    background-color: #004d99;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    width: 98%;
+    margin-left: 1%;
+    padding-top: 140px;
+    text-align: center;
+    border-radius: 10px;
+    display: none;
+}
+
+#sponTitle{
+    color: whitesmoke;
+    font-size: 28pt;
+    font-weight: bold;
+}
+
+
+
+#sponBlurb{
+    color: whitesmoke;
+    font-size: 18pt;
+    margin-left:8%;
+    margin-right: 8%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.jzoneBlock{
+    background-color: #004d99;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 100px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+    display: none;
+}
+#jzonePic{
+    width: 60%;
+    float: left;
+}
+
+#jzone{
+    margin-top: 160px;
+    color: whitesmoke;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+#jzoneBlurb{
+    color: whitesmoke;
+    font-size: 12pt;
+    padding-top: 20px;
+    max-width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+
+.liBlock{
+    background-color: #004d99;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 100px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+    display:none;
+}
+
+#liPic{
+    width: 50%;
+    float: right;
+    margin-top: 140px;
+    margin-right: 2%;;
+}
+
+#liTitle{
+    margin-top: 120px;
+    color: whitesmoke;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+#liBlurb{
+    color: whitesmoke;
+    font-size: 12pt;
+    padding-top: 20px;
+    max-width: 25%;
+    position: relative;
+    left: 12%;
+}
+
+
+.libtn{
+    position: relative;
+    right: 25%;
+    margin-bottom: 60px;
+}
+
+.comBlock{
+    background-color: #004d99;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 10 8px 6px -6px #999;
+    box-shadow: 0 8px 16px -6px #262626;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 100px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+    display: none;
+}
+
+#cPic{
+    width: 50%;
+    float: left;
+    margin-right: 2%;
+}
+
+#commander{
+    margin-top: 80px;
+    color: whitesmoke;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.cbtn{
+    margin-bottom: 20px;
+}
+
+
+
+/*animation*/
+
+ .btn, .navbar, #logo, #UTSCBC, #bton, .blockThree, #memText,#memBlurb1,#memBlurb2,#memBlurb3,#memBlurb4,#icon,#icon1{
+	transition: .7s all;
+	-moz-transition: .7s all;
+	-webkit-transition: .7s all;
+	-o-transition: .7s all;
+}
+
+
+/*Media Query Responsiveness*/
+/*Mobile*/
+@media screen and (max-width: 980px) {
+    #navbarstuff{
+       background-color:whitesmoke;  
+       margin-top: 70px;
+       font-size: 10pt;
+    }
+
+
+    .container {
+        width: 100%;
+        max-width: 112.5%;
+        min-width: 90%;
+    }
+
+    .navbar{
+        height:70px;
+    }
+
+    .navbar.large{
+        height:70px;
+    }
+
+    .navbar.small{
+        height:70px;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    #logoTwo{
+        opacity: 0;
+    }
+    
+    #mhText{   
+        font-size: 18pt;
+        padding-top: 20%;
+        margin-left: 1%;
+    }
+
+    #mhText2{   
+        font-size: 14pt;
+        margin-left: 1%;
+        padding-bottom: 20px;
+    }
+
+
+    #mhBlock{
+        background-size: 130%; 
+        background-position: top;
+    }
+
+    #titleText{
+        margin-left: 40%;
+        padding-top: 1%;
+        color: white;
+        font-size: 18pt;
+        font-family: 'Calibri' sans-serif;
+        font-weight: bold;
+     }
+
+     #wordText{
+        margin-left: 2%;
+        margin-right: 10%;
+        padding-bottom: 10px;
+     }
+
+
+    .memBlock{
+        display: none;
+    }
+
+    #calText{
+        font-size: 16pt;
+    }
+    
+    #calText2{
+        font-size: 16pt;
+        margin-left: 30%;
+    }
+
+    #calText3{
+        font-size: 16pt;
+    }
+
+    #quote{
+        font-size: 16pt;
+        margin-left: 12px; 
+    }
+
+    #icon1{
+        margin-left: 40%;
+    }
+
+    #UTSCBC{
+        margin-top: 16px; 
+        margin-left: 1%;
+        font-size: 14pt;
+    }
+
+    .shoBlock{
+        background-image: url("../images/lcw.jpg");
+        background-size: 180%; 
+    }
+
+    #memPic2{
+        display: none;
+    }
+
+    #quote{
+        color: whitesmoke;
+        font-size: 18pt;
+        margin-left: 6%;
+        margin-top: 120px;
+        text-shadow: 4px 2.4px 8px rgba(0, 0, 0, 0.26);
+    }
+
+    /*Membership page*/
+
+    .mainBlock{
+        margin-top: 30%;
+        background-image: 
+        linear-gradient( rgba(0,0,0,.6), rgba(0,0,0,.6) ),
+        url("../images/received_1548835818558360.jpeg");
+        background-size: 100%;
+        border-radius: 10px;
+    }
+
+    .showblock{
+        display: none;
+    }
+
+    #showBlurb{
+        margin-right: 10%;
+        font-size: 24pt;
+    }
+
+    #showBlurb2{
+        font-size: 12pt;
+        margin-left: 8%;
+        max-width: 90%;;
+        padding-bottom: 50px;
+    }
+    #count,#service,#service, #members{
+        display: none;
+    }
+
+    #myCarousel{
+        width:100%;
+        margin-left: 0;
+        margin-top: 8%;
+    }
+    #mbsBlurb2{
+        font-size: 14pt;
+    }
+    #mbsBlurb{
+        font-size: 16pt;
+    }
+    .memBlockSide{
+        width: 99%;
+        margin-left: 1%;
+        margin-top: 8%;
+    }
+
+    #membtn{
+        margin-left: 25%;
+        margin-top: 8%;
+        font-size: 12pt;
+    }
+
+    /*Club Hours Page*/
+    #hb2Blurb{
+        font-size: 16pt;
+    }
+
+    #hb2Blurb2{
+        font-size: 12pt;
+    }
+    .hourBlock2{
+        width: 90%;
+        margin-left: 5%;
+        top: 100px;
+        opacity: 0.8;
+        
+    }
+    .hourBlock{
+        height: 630px;
+        background-position: top;
+    }
+
+    /*Services Page*/
+
+    .serBlock{
+        height: 200px;;
+    }
+
+    #serBlurb{
+        font-size: 18pt;
+        margin-top: -60px;
+    }
+
+    #serBlurb2{
+        font-size: 16pt;
+    }
+
+    #serBlurb3{
+        font-size: 18pt;
+    }
+    #serBlurb33, #serBlurb32{
+        font-size: 12pt;
+        padding-bottom: 20px;
+        margin: 0;
+        margin-left: 20%; 
+    }
+
+    #serimg, #serimg2{
+        display: none;
+    }
+
+    /*Staff Page*/
+    .jBlock{
+        background-size: 220%;
+        size: 100px;
+    }
+
+    .joinBlock{
+        width: 94%;
+        margin-left: 3%;
+        top: 200px;
+        opacity: 0.9;
+    }
+
+    #joinTitle{
+        font-size: 18pt;
+    }
+    
+    #joinBlurb{
+        font-size: 12pt;
+    }
+
+    #oTitle{
+        font-size: 16pt;
+    }
+    #oBlurb{
+        font-size: 12pt;
+    }
+    /*Sponsors Page*/
+
+    #sponTitle{
+        font-size: 18pt;
+    }
+    #sponBlurb{
+        font-size: 12pt;
+    }
+
+    .sponBlock{
+        padding-top: 90px;
+       
+    }
+
+    .jzoneBlock{
+        margin-top: 20px;
+    }
+    #jzonePic{
+        width: 100%;
+    }
+    #jzone{
+        margin-top: 280px;
+    }
+    #jzoneBlurb{
+        font-size: 10pt;
+    }
+    .jbtn{
+        margin-bottom: 20px;
+    }
+    .liBlock{
+        margin-top: 40px;
+    }
+    #liPic{
+        width: 100%;
+        margin-top: 20px;
+        float: none;
+    }
+    #liTitle{
+        margin-top: 40px;
+    }
+    #liBlurb{
+        color: whitesmoke;
+        font-size: 10pt;
+        padding-top: 20px;
+        max-width: 25%;
+        position: static;
+        width: 90%;
+        max-width: 100%;
+        margin-left: 5%;
+        padding-bottom: 20px;
+    }
+    .libtn{
+        position: static;
+        margin-bottom: 40px;
+    }
+    .comBlock{
+        margin-top: 40px;
+    }
+
+    #cPic{
+        width: 100%;
+    }
+}
