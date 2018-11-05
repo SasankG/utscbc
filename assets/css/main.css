@@ -230,12 +230,19 @@ opacity: 0.4;
 }
 
 #calText2{
-    margin-left: 40%; 
+    text-align: center;
     padding-bottom: 90px;
     color: white;
     font-family: 'Dubai(medium)', Dubai , sans-serif;
     font-weight: bold;
     font-size: 28pt;
+}
+
+.evBtn {
+    margin-left: 45%;
+    margin-bottom: 40px;
+    font-size: 18pt;
+    border-radius: 10px;
 }
 
 #calText3{
@@ -927,7 +934,11 @@ opacity: 0.4;
     
     #calText2{
         font-size: 16pt;
-        margin-left: 30%;
+    }
+
+    .evBtn {
+        margin-left: 35%;
+        margin-bottom: 40px;
     }
 
     #calText3{
